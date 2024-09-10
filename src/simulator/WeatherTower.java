@@ -1,6 +1,5 @@
 package simulator;
 
-public class WeatherTower {
-
+public class WeatherTower extends Tower {
 
 }
