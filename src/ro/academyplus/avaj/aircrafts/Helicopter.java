@@ -1,6 +1,7 @@
-package simulator;
+package ro.academyplus.avaj.aircrafts;
+import ro.academyplus.avaj.simulator.WeatherTower;
 
-public class Baloon extends Aircraft implements Flyable {
+public class Helicopter extends Aircraft implements Flyable {
     protected WeatherTower weatherTower;
 
     @Override
@@ -12,7 +13,7 @@ public class Baloon extends Aircraft implements Flyable {
         weatherTower.getWeather(coordinates);
     }
 
-    public Baloon(long id, String name, Coordinates coordinates) {
+    public Helicopter(long id, String name, Coordinates coordinates) {
         super(id, name, coordinates);
     }
 }

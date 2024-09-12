@@ -1,4 +1,4 @@
-package simulator;
+package ro.academyplus.avaj.aircrafts;
 
 public class AircraftFactory {
     public static Flyable newAircraft(String p_type, String p_name, Coordinates p_coordincates) {

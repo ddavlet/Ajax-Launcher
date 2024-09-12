@@ -1,5 +1,6 @@
-package simulator;
+package ro.academyplus.avaj.simulator;
 
+import ro.academyplus.avaj.aircrafts.Coordinates;
 
 public class WeatherTower extends Tower {
     public String getWeather(Coordinates p_coordinates) {

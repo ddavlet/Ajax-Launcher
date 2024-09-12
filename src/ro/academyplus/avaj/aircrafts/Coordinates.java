@@ -1,4 +1,4 @@
-package simulator;
+package ro.academyplus.avaj.aircrafts;
 
 public class Coordinates {
 
